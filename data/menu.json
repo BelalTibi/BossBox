@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Meal Deal",
+      "price": "10.00",
+      "desc": "House Burger, Fries, 3 Wings, Drink"
+    },
+    {
+      "name": "Burger Box",
+      "price": "15.00",
+      "desc": "House Burger, Fries/Mac, Mozarella Sticks, Plantain"
+    },
+    {
+      "name": "Boss Box for Two",
+      "price": "40.00",
+      "desc": "2 House Burgers, 6 Wings, 2 Fries/Mac, 4 Lamp Chops, 2 Plantain, 4 Mozarella Sticks, 6 Prawns"
+    }
+  ]
+  

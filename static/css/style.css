@@ -1,0 +1,59 @@
+/* Basic theme tweaks */
+body {
+    background: #f8f9fa;
+  }
+  
+  /* Make cards and sections feel “alive” */
+  .card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Reveal-on-scroll animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 600ms ease, transform 600ms ease;
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Softer buttons */
+  .btn {
+    border-radius: 999px;
+    padding: 0.6rem 1.2rem;
+  }
+  
+  /* Hero image: show the whole photo (no crop) */
+  .hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    border-radius: 16px;
+  }
+  
+  /* Gentle zoom on page load */
+  .zoom-on-load {
+    animation: heroZoom 1.6s ease both;
+  }
+  @keyframes heroZoom {
+    from { transform: scale(1.02); }
+    to   { transform: scale(1); }
+  }
+  
+  /* Tiny hover zoom */
+  .hero-img:hover {
+    transform: scale(1.015);
+    transition: transform 300ms ease;
+  }
+  

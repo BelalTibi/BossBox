@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mb-4">Contact Us</h1>
+
+<div class="row">
+  <div class="col-md-8">
+    <div class="card p-4 fade-in">
+      <p class="mb-3">Have a question or want to book a table?</p>
+      <!-- Replace with your real email later -->
+      <a href="mailto:youremail@example.com?subject=Table%20Booking%20Enquiry"
+         class="btn btn-primary"
+         target="_blank" rel="noopener">
+        Email Us
+      </a>
+      <p class="mt-2 text-muted small">
+        If your email app doesn’t open, copy this address:
+        <code>bossbox@example.com</code>
+      </p>
+
+      <hr class="my-4">
+
+      <!-- Placeholder form (we'll wire Formspree later) -->
+      <form action="#" method="post" onsubmit="alert('On static hosting, this needs a form service. I can wire it later!'); return false;">
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-outline-secondary" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
