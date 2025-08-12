@@ -1,8 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="text-center">
-    <img src="{{ url_for('static', filename='images/hero.jpg') }}"
-    alt="Restaurant burger"
-    class="hero-img fade-in zoom-on-load">
+  <img src="{{ url_for('static', filename='images/hero.jpg') }}"
+       alt="Restaurant burger"
+       class="hero-img fade-in zoom-on-load">
+  <h1 class="mt-4">Welcome to My Restaurant</h1>
+  <p class="lead">Delicious food, friendly service.</p>
+  <a href="{{ url_for('menu') }}" class="btn btn-primary">See the Menu</a>
 </div>
 {% endblock %}
