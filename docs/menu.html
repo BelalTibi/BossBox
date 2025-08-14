@@ -4,25 +4,62 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Menu</title>
+    <meta name="description" content="BossBox — delicious burgers, loaded fries, and great value meal deals.">
+    <meta property="og:title" content="Menu">
+    <meta property="og:description" content="Delicious burgers, loaded fries, and great value meal deals.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="static/images/hero.jpg">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/style.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.html">BossBox</a>
+        <!-- Brand -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="static/images/logo.jpg" alt="BossBox logo" class="brand-logo">
+          <span class="brand-text">BossBox</span>
+        </a>
+
+        <!-- Single theme toggle (visible on all sizes) -->
+        <button id="themeToggle" class="btn btn-sm btn-outline-light ms-auto me-2" type="button">Dark</button>
+
+        <!-- Hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Links -->
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            
-            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link "
+                href="index.html"
+                aria-current="">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"
+                href="menu.html"
+                aria-current="page">
+                Menu
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "
+                href="contact.html"
+                aria-current="">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
 
     <main class="container my-5">
       
@@ -30,7 +67,13 @@
 <div class="row">
   
   <div class="col-md-4 fade-in">
-    <div class="card mb-4">
+    <div class="card menu-card mb-4">
+      
+      <img src="static/images/hero.jpg"
+          alt="Meal Deal"
+          class="card-img-top menu-card-img"
+          loading="lazy">
+      
       <div class="card-body">
         <h5 class="card-title">Meal Deal</h5>
         <p class="card-text">House Burger, Fries, 3 Wings, Drink</p>
@@ -38,9 +81,16 @@
       </div>
     </div>
   </div>
+
   
   <div class="col-md-4 fade-in">
-    <div class="card mb-4">
+    <div class="card menu-card mb-4">
+      
+      <img src="static/images/hero.jpg"
+          alt="Burger Box"
+          class="card-img-top menu-card-img"
+          loading="lazy">
+      
       <div class="card-body">
         <h5 class="card-title">Burger Box</h5>
         <p class="card-text">House Burger, Fries/Mac, 2 Mozarella Sticks, Plantain</p>
@@ -48,9 +98,16 @@
       </div>
     </div>
   </div>
+
   
   <div class="col-md-4 fade-in">
-    <div class="card mb-4">
+    <div class="card menu-card mb-4">
+      
+      <img src="static/images/hero.jpg"
+          alt="Boss Box for Two"
+          class="card-img-top menu-card-img"
+          loading="lazy">
+      
       <div class="card-body">
         <h5 class="card-title">Boss Box for Two</h5>
         <p class="card-text">2 House Burgers, 6 Wings, 2 Fries/Mac, 4 Lamp Chops, 2 Plantain, 4 Mozarella Sticks, 6 Prawns</p>
@@ -58,9 +115,16 @@
       </div>
     </div>
   </div>
+
   
   <div class="col-md-4 fade-in">
-    <div class="card mb-4">
+    <div class="card menu-card mb-4">
+      
+      <img src="static/images/hero.jpg"
+          alt="Mac Box"
+          class="card-img-top menu-card-img"
+          loading="lazy">
+      
       <div class="card-body">
         <h5 class="card-title">Mac Box</h5>
         <p class="card-text">Mac, 6 Wings, 3 Prawns, Plantain</p>
@@ -68,6 +132,7 @@
       </div>
     </div>
   </div>
+
   
 </div>
 

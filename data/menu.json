@@ -2,22 +2,26 @@
     {
       "name": "Meal Deal",
       "price": "10.00",
-      "desc": "House Burger, Fries, 3 Wings, Drink"
+      "desc": "House Burger, Fries, 3 Wings, Drink",
+      "image": "images/hero.jpg"
     },
     {
       "name": "Burger Box",
       "price": "15.00",
-      "desc": "House Burger, Fries/Mac, 2 Mozarella Sticks, Plantain"
+      "desc": "House Burger, Fries/Mac, 2 Mozarella Sticks, Plantain",
+      "image": "images/hero.jpg"
     },
     {
       "name": "Boss Box for Two",
       "price": "40.00",
-      "desc": "2 House Burgers, 6 Wings, 2 Fries/Mac, 4 Lamp Chops, 2 Plantain, 4 Mozarella Sticks, 6 Prawns"
+      "desc": "2 House Burgers, 6 Wings, 2 Fries/Mac, 4 Lamp Chops, 2 Plantain, 4 Mozarella Sticks, 6 Prawns",
+      "image": "images/hero.jpg"
     },
     {
       "name": "Mac Box",
       "price": "15.00",
-      "desc": "Mac, 6 Wings, 3 Prawns, Plantain"
+      "desc": "Mac, 6 Wings, 3 Prawns, Plantain",
+      "image": "images/hero.jpg"
     }
   ]
   
